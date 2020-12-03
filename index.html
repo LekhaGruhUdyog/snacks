@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com -->
+  <title>Lekha Gruh Udyog</title>
+  <meta charset="utf-8">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<!--Get your own code at fontawesome.com-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Battambang&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Wallpoet&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan Script' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Bowlby One SC' rel='stylesheet'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
+  <style>
+  * {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: dodgerblue;
+}
+p {
+color: black;
+font-family:Raleway;
+}
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: dodgerblue;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;color: black;
+font-family:Raleway;font-size:25px;}
+
+/* Add a blue color to the author */
+.author {color: white;font-size:20px;}
+.mySlides {display:none;}
+
+  body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+  }
+ 
+  .navbar {
+    margin-bottom: 0;
+    background-color: blue;
+    z-index: 9999;
+    border: 0;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+	font-size: 25px !important;
+  }
+  .navbar li a, .navbar {
+    color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: black !important;
+	}
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: red !important;
+  }
+  .navbar-brand {
+  font-size: 25px !important;
+  color: #fff !important
+  }
+.jumbotron {
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBsWsQ799LyMs9Euxsuw_3uHkpBNqMKRsYRA&usqp=CAU");
+text-align: center;
+color: white;
+font-family: Raleway, Sans Serif;
+font-weight: bold;
+}
+h3 {
+color: black !important;
+font-family: 'Montserrat', sans-serif;
+font-size: 30px;
+}
+h3.nil {
+color: white !important;
+font-size: 30px;
+font-family: 'Montserrat', sans-serif;
+}
+img.nature {
+height: 500px;
+width: 650px;
+}
+body, html {
+background: black;
+}
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+  background: grey;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: dodgerblue; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: purple; 
+}
+.w3-card-4 {
+border-radius: 30px;
+}
+h1.heading {
+color: dodgerblue;
+font-size: 55px;
+text-transform: uppercase;
+font-weight: bold;
+font-family: 'Bowlby One SC', cursive;
+}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  background-color: black;
+  color:white;
+  font-family:raleway;
+}
+.input-field2 {
+  width: 100%;
+  padding: 30px 30px;
+  outline: none;
+  background-color: black;
+  font-family:raleway;
+}
+
+.input-field:focus {
+  border: 4px solid red;
+  
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-image: linear-gradient(to right top, #ff6ec7, #ff749b, #ff9369, #ffc039, #faed27);
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+::selection {
+  color:white;
+  background: red;
+}
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  img.nature {
+    height: 250px;
+    width: 325px;
+  }
+  h1.heading {
+    font-size: 45px;
+  }
+  w3-card-4 {
+    width: 100%;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 white;
+  padding: 16px;
+  text-align: center;
+  background-color: dodgerblue;
+  height:280px;
+}
+h2.big {
+font-size: 40px;
+color: white !important;
+}
+p.biggie {
+font-size: 20px;
+color: black !important;
+}
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<div class="jumbotron">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">Lekha Gruh Udyog</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage"><i class="fas fa-home"></i> HOME</a></li>
+        <li><a href="#contact"><i class="fas fa-id-card-alt"></i> CONTACT</a></li>
+        <li><a href="#testimonial"><i class="fas fa-quote-left"></i> TESTIMONIALS</a></li>
+		</ul>
+    </div>
+  </div></nav><br><br>
+  <h1>Lekha Gruh Udyog</h1> 
+ <h3 class="nil"> <i class="fas fa-utensils"></i> Finger Lickin' Good <i class="fas fa-utensils"></i></h3>
+</div></div></div>
+
+<center>
+
+ <div class="w3-card-4" style="width:50%;">
+     <header class="w3-container w3-blue">
+<h1> <i class="fas fa-info-circle"></i></h1>
+    <header class="w3-container w3-blue">
+      <h1>About Us</h1>
+    </header>
+
+    <div class="w3-container w3-border w3-white">
+      <h3>We make everything from 'farsans' to traditional snacks and dishes. Throughout our journey of 5 years, we have provided services of utmost satisfaction to our customers. Our motto has always been 'Quality is non negotiable', hence we strive to provide you the best possible and good quality service. We make everything at home itself to give you the very homely taste.</p>
+    </div>
+  
+  <footer class="w3-container w3-red">
+  <h5>Note : WE ONLY ACCEPT FRESH TO EAT ORDERS</h5>
+  </div>
+</footer>
+    </div></div></div>
+<hr>
+
+<h1 class="heading">Why are we so special?</h1>
+
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h2 class="big">Hygienic but Delicious</h2>
+      <p class="biggie">We bring the best from our home to provide you delicacies that are of great quality. Our dishes are full of hygiene combined with the richness of taste. We use less oil and artificial ingredients, rather we focus on natural 'masalas' and herbs.</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+       <h2 class="big">Experience</h2>
+      <p class="biggie">We have been running this bussiness for the last 5 years. Throughout this journey we have provided we have acquired orders of all types, large or small. Our expertise in fresh to make orders has ensured storng word of mouth in our favour.</p>
+    </div>
+ </div>
+ </div>
+ <br><br>
+<hr>
+<h1 class="heading"> What we make ? </h1><br><br>
+<img class="nature" src="sakarpara.jpg" width="100%">
+<img class="nature" src="farsipuri.jpg" width="100%">
+<img class="nature" src="gathiya.jpg" width="100%">
+<div id="testimonial"><br>
+<h1  class="heading"> TESTIMONIALS </h1>
+<h3 class="nil"><br>Our clients say it so much better than we ever could<br><BR></h1>
+<div class="slideshow-container">
+<div class="mySlides">
+  <q>Lekha Gruh Udyog is a must part of our festive celebrations! Their items are just synonymous with festive for us! <b>It is just unresistable!</b></q>
+  <p class="author">- Payal Buch </p>
+</div>
+
+<div class="mySlides">
+  <q>Beautiful! Apart from Dairy Milk Lekha Gruh Udyog is <b>finger lickin' good</b>.</q>
+  <p class="author">- Dipali Trivedi</p>
+</div>
+
+<div class="mySlides">
+  <q> Snacks - These things are defined by Lekha Gruh udyog! Would not resist or think for a moment before hiring them <b>again and again</b></q>
+  <p class="author">- Siju Dave</p>
+</div>
+<div class="mySlides">
+  <q>Me and my family are big foodies but due to Corona this time we weren't able to get anything from restaurants! <b>Luckily, Lekha Gruh Udyog came to the rescue!</b> Wouldn't need an excuse next time to hire them again</q>
+  <p class="author">- Nilaben Buch</p>
+</div>
+</div>
+
+</div>
+
+<div class="w3-container">
+  
+  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-white w3-large">Share your testimonial <i class="fas fa-hand-point-right"></i></button>
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+
+      <div class="w3-center"><br>
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+        <img src="img_avatar4.png" alt="Avatar" style="width:30%" class="w3-circle w3-margin-top">
+      </div>
+
+      <form class="w3-container" action="mailto:dhyeyabuch@gmail.com" enctype="text/plain">
+        <div class="w3-section">
+           <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="Username" name="usrnm">
+  </div>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<!--Get your own code at fontawesome.com-->
+  <div class="input-container">
+    <i class="fa fa-envelope icon"></i>
+    <input class="input-field" type="text" placeholder="Email" name="email">
+  </div>
+  
+  <div class="input-container"><div class="icon">
+    <i class="fas fa-quote-left"></i></div>
+	    <input class="input-field2" type="text" placeholder="What you think..." name="email">
+
+  </div>
+
+  <button type="submit" class="btn">Share</button>
+</form>
+
+    </div>
+  </div>
+</div>
+<div id="contact"><br>
+<hr>
+<H1 class="heading"> CONTACT LEKHA UDYOG </H1>
+<h2> <i class="fas fa-map-marker-alt"></i> Satya Society, Ghatlodia Ahmedabad, Gujarat <br>
+<a href="mailto:nileshbotadra@gmail.com"> <i class="fas fa-envelope-open-text"></i> nileshbotadra@gmail.com </a><br>
+<i class="fas fa-phone-square-alt"></i> <a href="tel:7574873399">7574873399/9377705219 </a><br>
+<i class="fas fa-shipping-fast"></i> Pick up from Home </h2><br><center>
+<form action="mailto:nileshbotadra@gmail.com" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin">
+<h2 class="w3-center">Write to Lekha Gruh Udyog</h2>
+ 
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="first" type="text" placeholder="First Name">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="last" type="text" placeholder="Last Name">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fas fa-envelope-square"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="email" type="text" placeholder="Email">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-phone"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="phone" type="text" placeholder="Phone">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fas fa-pencil-alt"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="message" type="text" placeholder="Message">
+    </div>
+</div>
+
+<p class="w3-center">
+<button> Send </button>
+</p>
+</form>
+<script>
+w3.slideshow(".nature", 3000);
+</script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 200) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 4000); 
+}
+ for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+</script>
